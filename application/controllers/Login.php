@@ -29,6 +29,6 @@ class Login extends CI_Controller {
 	{
 		$this->session->sess_destroy();
 		$this->session->set_flashdata('info', 'Masuk untuk melanjutkan');
-		redirect('login');
+		redirect('Beranda');
 	}
 }
